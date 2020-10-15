@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1035513024448",
+    "firebase_url": "https://logins-e100d.firebaseio.com",
+    "project_id": "logins-e100d",
+    "storage_bucket": "logins-e100d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035513024448:android:9bdbcec94ee5619b958225",
+        "android_client_info": {
+          "package_name": "com.example.logins"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035513024448-hat99d47p72q8onqkufp1govmo6a8qdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf_PIxNKANM4MTMjeksV4KBAhZALscMhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035513024448-hat99d47p72q8onqkufp1govmo6a8qdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

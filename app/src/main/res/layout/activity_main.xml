@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LogoutBtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Regist">
+
+    <TextView
+        android:id="@+id/PhoneTxt"
+        android:layout_width="206dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#121111"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailTxt" />
+
+    <TextView
+        android:id="@+id/EmailTxt"
+        android:layout_width="206dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#121111"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameTxt" />
+
+    <TextView
+        android:id="@+id/NameTxt"
+        android:layout_width="206dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#121111"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/LabelPhone"
+        android:layout_width="63dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="32dp"
+        android:text="Phone :"
+        android:textAlignment="center"
+        android:textColor="#131313"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/PhoneTxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LabelEmail" />
+
+    <TextView
+        android:id="@+id/LabelEmail"
+        android:layout_width="63dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="32dp"
+        android:text="Email :"
+        android:textAlignment="center"
+        android:textColor="#131313"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/EmailTxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LabelName" />
+
+    <TextView
+        android:id="@+id/Loggedin"
+        android:layout_width="234dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="168dp"
+        android:text="Welcome to Dashboard"
+        android:textAlignment="center"
+        android:textColor="#131313"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneTxt" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="129dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:text="Logout"
+        android:onClick="logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Loggedin"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/LabelName"
+        android:layout_width="63dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Name :"
+        android:textAlignment="center"
+        android:textColor="#131313"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/NameTxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
